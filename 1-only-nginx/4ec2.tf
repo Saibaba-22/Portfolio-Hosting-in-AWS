@@ -192,8 +192,8 @@ cat << 'HTML' > /var/www/html/index.html
     <section>
         <h3 class="section-title">Education</h3>
         <p class="section-content">
-            B.Tech in Electronics and Communication Engineering | 7.0 <br>
-            CMR College of Engineering and Technology
+            B.Tech in Electronics and Communication Engineering | <br>
+            ABC College of Engineering and Technology
         </p>
     </section>
 
@@ -201,7 +201,7 @@ cat << 'HTML' > /var/www/html/index.html
     <section>
         <h3 class="section-title">Contact Me</h3>
         <p class="section-content">
-            Email: k.saibaba@gmail.com <br>
+            Email: saibaba@gmail.com <br>
             Github: https://github.com/Saibaba
         </p>
     </section>
