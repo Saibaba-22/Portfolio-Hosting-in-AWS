@@ -130,15 +130,12 @@ cat << 'HTML_EOF' > /var/www/html/index.html
     </div>
 </div>
 
-    <!-- Projects -->
-    <section>
-        <h3 class="section-title">Projects</h3>
-
         <!-- Project 1 -->
-        <div class="project-box" >
+        <div class="project-box" onclick="toggleProject('p1')">
             <h4> Automated Cloud VM Deployment and Portfolio Hosting Using Terraform </h4>
             <p> Uses Terraform to automate cloud VM setup, configure a web server, and host a portfolio website with fast, consistent, and scalable deployment. </p>
 
+            <div id="p1" class="project-details">
             <p> project-details 
                 <p><b>Tools:</b>  MS Azure (Virtual Networks, Virtual Machine), Terraform, Git </p>
                 <p><b>Responsibilities:</b> Deployed cloud Virtual Machines using Terraform (IaC). <br>
@@ -146,47 +143,49 @@ cat << 'HTML_EOF' > /var/www/html/index.html
                     • Configured network rules and installed web server. <br>
                     • Hosted and updated a portfolio website on the VM. <br>
                     • Tested, troubleshot, and documented the deployment process. </p>
-                <p><b>GitHub:</b> <a href="https://github.com/Saibaba-22/Linux-Terraform-Portfolio_Web.git"> View Repo</a></p>
-                <img src="Images/Project1image1.png" alt="Project1 Image1">
-            
+                <p><b>GitHub:</b> <a href="https://github.com/<github-name>/<repo-name>.git"> View Repo</a></p>
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Project1 Image1">
+
+            </div>
         </div>
 
         <!-- Project 2 -->
-        <div class="project-box" ">
+        <div class="project-box" onclick="toggleProject('p2')">
             <h4> Website Hosting Using Micro Services </h4>
             <p> A microservices-based website hosting project where different functionalities (frontend, backend, database) are deployed as independent services, <br> 
                 improving scalability, flexibility, and easier maintenance. </p>
 
+            <div id="p2" class="project-details">
             <p> project-details 
                 <p><b>Tools:</b> Jenkins, GitHub, Docker</p>
                 <p><b>Responsibilities:</b> Pipeline creation, automation</p>
-                <p><b>GitHub:</b> <a href="https://github.com/Saibaba-22/Website-Hosting-Using-Micro-Services-With-DB.git"> View Repo </a></p>
-                <img src="Images/Project2image1.png" alt="Project2 Image1">
-                <img src="Images/Project2image2.png" alt="Project2 Image2">
+                <p><b>GitHub:</b> <a href="https://github.com/https://github.com/<github-name>/<repo-name>.git"> View Repo </a></p>
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Project2 Image1">
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Project2 Image2">
+            </div>
         </div>
 
     </section>
 
     <!-- Certifications -->
-    <section>
-        <h3 class="section-title">Certifications</h3>
+<section>
+    <h3 class="section-title">Certifications</h3>
 
-        <div class="cert-box" onclick="toggleCert(this)">
-            •	Participated and lead a team in “Cloud Shield DevSecOps Hackathon 2026” organized by V Cube Software Solutions
-            <span class="view-link">View Certificate</span>
-
-            <div class="cert-image">
-                <img src="Images/DevSecOps-Hackathon.jpg" alt="Certificate">
+    <div class="cert-box" onclick="toggleCert(this)">
+        • Participated and lead a team in “Cloud Shield DevSecOps Hackathon 2026” organized by V Cube Software Solutions
+        <span class="view-link">View Certificate</span>
+            <div class="cert-image" id="certImg">
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Certificate">
             </div>
-        </div>
-    </section>
+    </div>
+</section>
 
     <!-- Education -->
     <section>
         <h3 class="section-title">Education</h3>
         <p class="section-content">
-            B.Tech in Electronics and Communication Engineering | 7.0 <br>
-            CMR College of Engineering and Technology
+            B.Tech in Electronics and Communication Engineering | <br>
+            abc College of Engineering and Technology
         </p>
     </section>
 
@@ -194,7 +193,7 @@ cat << 'HTML_EOF' > /var/www/html/index.html
     <section>
         <h3 class="section-title">Contact Me</h3>
         <p class="section-content">
-            Email: k.saibaba@gmail.com <br>
+            Email: saibaba@gmail.com <br>
             Github: https://github.com/Saibaba
         </p>
     </section>
