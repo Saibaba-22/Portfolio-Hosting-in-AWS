@@ -150,8 +150,8 @@ cat << 'HTML' > /var/www/html/index.html
                     • Configured network rules and installed web server. <br>
                     • Hosted and updated a portfolio website on the VM. <br>
                     • Tested, troubleshot, and documented the deployment process. </p>
-                <p><b>GitHub:</b> <a href="https://github.com/Saibaba-22/Linux-Terraform-Portfolio_Web.git"> View Repo</a></p>
-                <img src="https://raw.githubusercontent.com/saibaba-22/Whitebg-Portfolio-with-details/main/Project1image1.png" alt="Project1 Image1">
+                <p><b>GitHub:</b> <a href="https://github.com/<github-name>/<repo-name>.git"> View Repo</a></p>
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Project1 Image1">
 
             </div>
         </div>
@@ -166,9 +166,9 @@ cat << 'HTML' > /var/www/html/index.html
             <p> project-details 
                 <p><b>Tools:</b> Jenkins, GitHub, Docker</p>
                 <p><b>Responsibilities:</b> Pipeline creation, automation</p>
-                <p><b>GitHub:</b> <a href="https://github.com/Saibaba-22/Website-Hosting-Using-Micro-Services-With-DB.git"> View Repo </a></p>
-                <img src="https://raw.githubusercontent.com/saibaba-22/Whitebg-Portfolio-with-details/main/Project2image1.png" alt="Project2 Image1">
-                <img src="https://raw.githubusercontent.com/saibaba-22/Whitebg-Portfolio-with-details/main/Project2image2.png" alt="Project2 Image2">
+                <p><b>GitHub:</b> <a href="https://github.com/https://github.com/<github-name>/<repo-name>.git"> View Repo </a></p>
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Project2 Image1">
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Project2 Image2">
             </div>
         </div>
 
@@ -182,7 +182,7 @@ cat << 'HTML' > /var/www/html/index.html
         • Participated and lead a team in “Cloud Shield DevSecOps Hackathon 2026” organized by V Cube Software Solutions
         <span class="view-link">View Certificate</span>
             <div class="cert-image" id="certImg">
-                <img src="https://raw.githubusercontent.com/saibaba-22/hackathon/main/DevSecOps-Hackathon.jpg" alt="Certificate">
+                <img src="https://raw.githubusercontent.com/<github-name>/<repo-name>/main/<image.format>" alt="Certificate">
             </div>
     </div>
 </section>
