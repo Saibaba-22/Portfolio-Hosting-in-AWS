@@ -1,0 +1,45 @@
+Main Task – Hosting Portfolio using Terraform ​
+
+*Sub Task 1. Portfolio Deployment using Nginx *
+Install and configure Nginx
+Deploy your portfolio HTML project on the server
+Verify using browser (Public IP )
+
+*Expected Output:*
+Portfolio website should be accessible via browser
+Default Nginx page replaced with your portfolio
+
+*Sub Task 2. Store Images/Videos in Cloud Storage (S3)**
+Use your existing portfolio
+Extract : Profile Image
+Any Video (or add one if not present)
+Upload them to Amazon S3
+
+*Steps:*
+Create S3 bucket
+Upload image & video
+Make objects public (or use presigned URL)
+Replace local paths in HTML with S3 URLs
+
+Expected Output:
+Portfolio loads images/videos from S3 instead of local server
+
+*Sub Task 3. Host HTML Code in GitHub & Integrate with Nginx*
+Push your portfolio code to GitHub
+On server:
+Clone repository
+Replace Nginx root directory content
+
+
+Expected Output:
+Nginx serves latest code from GitHub repo
+Any changes pushed → can be updated via pull
+
+
+✅ Final Outcome
+
+By completing these tasks, you will learn:
+
+Real-time web deployment using Nginx
+Cloud storage integration using S3
+Version control & live deployment using GitHub
